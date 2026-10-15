@@ -1,21 +1,24 @@
 # My Favorite Things
 
-A small, responsive personal website about favorite activities and interests.
+A small, responsive personal website about favorite activities and interests, styled with Bootstrap 5 and custom CSS.
 
-## Pages
+## Pages and styles
 - `index.html` — homepage
 - `page2.html` — more favorites
-- `css/style.css` — shared styling and responsive layout
+- `css/style.css` — custom colors, focus styles, cards, and responsive refinements
 
-## Accessibility improvements
+## Bootstrap use
+Both HTML pages load Bootstrap 5.3.3 from the official jsDelivr CDN before the custom stylesheet. Bootstrap classes are used for the responsive container, navigation pills, grid columns, spacing, headings, and buttons. Custom CSS adds the site's blue-and-gray colors, card appearance, keyboard focus outlines, and button colors.
+
+## Accessibility and responsive design
 - Semantic header, navigation, main, section, and footer elements
-- One clear top-level heading per page and logical section headings
-- Skip link to main content
+- Skip link to main content and clear heading structure
 - Descriptive page titles and metadata
 - Meaningful link text and visible keyboard focus styles
 - High-contrast text and controls
-- Responsive layout for screens 600px wide and smaller
+- Bootstrap responsive grid and spacing utilities
+- Custom styles for screens 600px wide and smaller
 - Reduced-motion preference support
 
-## Check the site
-Open `index.html` in a browser, then run Lighthouse's Accessibility audit in Chrome DevTools. Save screenshots of the original audit before changes and the updated audit after testing on your desktop.
+## Preview
+Open `index.html` with Live Server in VS Code. An internet connection is needed for the Bootstrap CDN stylesheet to load.
